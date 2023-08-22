@@ -1,6 +1,8 @@
 # Vanilla Vue
 > A try to redo Vue 3 in a Vanilla TS environment by a Vue fan.
 
+⚠️ This project is still in early development
+
 ## Functionalities
 
 ### Done
