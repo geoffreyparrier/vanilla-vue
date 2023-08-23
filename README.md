@@ -1,44 +1,45 @@
 # Vanilla Vue
+
 > A try to redo Vue 3 in a Vanilla TS environment by a Vue fan.
 
-⚠️ This project is still in early development
+⚠️ This project is still in early development, let me know if there is anything wrong or better
 
 ## Functionalities
 
 ### Done
 
-- None
+- Bind / Ref
 
 ### Planned
 
-- Bind
-- Ref
+- Click Event
 
 ### Need Further Investigation
 
 - Computed
 - OnMounted
 - Props
-- Click Event
 
 ## Documentation
 
 ### Basic usage
+
 To simplify everything, we use the JS dataset to make VueVanilla work with HTML.
 
 > Some examples:
 > ```html
-> <div data-vv-bind="value"></div> // NOT IMPLEMENTED
+> <p data-vv-bind="value"></p>
 > <div data-vv-click="value or Function()"></div> // NOT IMPLEMENTED
 > <div data-vv-props="{Object}"></div> // NOT IMPLEMENTED
 > ```
 
-### Bind // NOT IMPLEMENTED
+### Bind / Ref
+
 > main.ts | main.js
 > ```ts
 > import { ref } from 'vanilla-vue';
 > 
-> const element = new ref('test');
+> const element = new ref({element: 'test'});
 > 
 > console.log(element.value); // 'test'
 > 
@@ -49,5 +50,5 @@ To simplify everything, we use the JS dataset to make VueVanilla work with HTML.
 
 > index.html
 > ```html
-> <div data-vv-bind="element" />
+> <p data-vv-bind="element" />
 > ```
