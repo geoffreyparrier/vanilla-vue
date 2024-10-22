@@ -1,3 +1,7 @@
+# Archived
+I will try to create a new Vanilla Vue but with some other concept, closer to Vue composition API.
+I archive this attempt as it is a first try but will not work on this repository, a new repository could appear some day at https://github.com/GeoffreyParrier/Vuenilla but no promises here.
+
 # Vanilla Vue
 
 > A try to redo Vue 3 in a Vanilla TS environment by a Vue fan.
